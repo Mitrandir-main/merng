@@ -1,6 +1,6 @@
-const postsResolvers = require("./posts");
-const usersResolvers = require("./users");
-const commentsResolvers = require("./comments");
+const postsResolvers = require("./posts.js");
+const usersResolvers = require("./users.js");
+const commentsResolvers = require("./comments.js");
 
 module.exports = {
   Post: {
